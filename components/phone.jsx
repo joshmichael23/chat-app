@@ -7,7 +7,7 @@ export function Phone() {
             <div className={styles["camera-container"]}>
               
             </div>
-            <button id={styles.backBtn}>
+            <button title="Back" id={styles.backBtn}>
             <i class="fa-solid fa-chevron-left"></i>
             </button>
             <img src="/avatar.jpg" alt="" />
@@ -15,7 +15,7 @@ export function Phone() {
               <span>Samuel Green</span>
               <span>Available to Walk</span>
             </p>
-            <button>
+            <button title="Menu">
             <i class="fa-solid fa-ellipsis-vertical"></i>
             </button>
 
@@ -33,9 +33,9 @@ export function Phone() {
             `}>Could you send over some pictures of your dog, please?</p>
 
             <div className={styles["pictures-chat"]}>
-              <img src="/dog-image-1.jpg" alt="" />
-              <img src="/dog-image-2.jpg" alt="" />
-              <img src="/dog-image-3.jpg" alt="" />
+              <img src="/dog-image-1.jpg" alt="Dog Image 1" />
+              <img src="/dog-image-2.jpg" alt="Dog Image 2" />
+              <img src="/dog-image-3.jpg" alt="Dog Image 3" />
             </div>
             <p id={styles.thirdchat} className={`
               ${styles["my-chat"]} 
@@ -63,7 +63,7 @@ export function Phone() {
 
             <div id={styles.inputchat}>
               <input disabled placeholder="Type a message..." id={styles.sendChatInput} type="text" name="" />
-              <button id={styles.sendChatBtn}>
+              <button title="Send" id={styles.sendChatBtn}>
               <i class="fa-solid fa-chevron-right"></i>
               </button>
             </div>
