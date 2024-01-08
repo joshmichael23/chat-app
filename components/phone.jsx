@@ -21,7 +21,7 @@ export function Phone() {
 
 
           </section>
-          <section className={styles["chat-content"]}>
+          <div className={styles["chat-content"]}>
             <p id={styles.firstchat} className={`
               ${styles["friends-chat"]} 
               ${styles.chat}
@@ -62,12 +62,12 @@ export function Phone() {
             </div>
 
             <div id={styles.inputchat}>
-              <input disabled placeholder="Type a message..." id={styles.sendChatInput} type="text" name="" />
+              <input disabled placeholder="Type a message..." id={styles.sendChatInput} type="text" name="chat-input" />
               <button title="Send" id={styles.sendChatBtn}>
               <i class="fa-solid fa-chevron-right"></i>
               </button>
             </div>
-          </section>
+          </div>
         </div>;
 }
   
