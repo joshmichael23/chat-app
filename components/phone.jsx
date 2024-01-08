@@ -3,7 +3,7 @@ import styles from './../src/styles/phone.module.css'
 
 export function Phone() {
   return <div className={styles.phone}>
-          <section className={styles["phone-top"]}>
+          <div className={styles["phone-top"]}>
             <div className={styles["camera-container"]}>
               
             </div>
@@ -20,7 +20,7 @@ export function Phone() {
             </button>
 
 
-          </section>
+          </div>
           <div className={styles["chat-content"]}>
             <p id={styles.firstchat} className={`
               ${styles["friends-chat"]} 
